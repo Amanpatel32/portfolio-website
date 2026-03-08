@@ -1,27 +1,40 @@
-<html lang="en"><head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Om Prakash">
     <title>Aman kumar Portfolio </title>
-    <meta name="description" content="Hi, I’m Aman kumar, an aspiring web Developer, Software Engineer pursuing a Bachelor’s degree in Computer Applications (BCA) at Amity University Patna.">
+    <meta name="description" content="Hi, I'm Aman kumar, an aspiring web Developer, Software Engineer pursuing a Bachelor's degree in Computer Applications (BCA) at Amity University Patna.">
 
     
     <link rel="stylesheet" href="aman.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
+    <!-- Dark/Light Mode Toggle -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
     <div id="portfolio-container">
 
         <!-- Header Section -->
 
         <header class="header">
             <div class="profile-pic-wrapper">
-                <img id="profile-pic" class="profile-pic" src="https://media.licdn.com/dms/image/v2/D5603AQEC4X8tnUjzFg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713813475243?e=1741824000&v=beta&t=NkpnOW9Cj0sxhKu8LbCHzAicg-q2bP702XGyt5ZNF1A" alt="Profile Picture">
+                <img id="profile-pic" class="profile-pic" src="D:\portfolio\fo2v6gqrtrjheniusnkagmwusedttt2b_output.png" alt="Profile Picture">
                 <div class="progress-bar" id="progress-bar"></div>
             </div>
             <h1 class="heading">Aman kumar</h1>
-            <p class="tagline">Web Developer | problem solving | Software Engineer</p>
+            <p class="tagline">Web Developer | Problem Solving | Software Engineer</p>
             <div class="contact-links">
                 <a href="https://mail.google.com/mail/u/0/#inbox?compose=lqrsltdHmxHpFMbXQwDvFXDbSkvcfTSMlmzNkXfFJqpqMRbvrMBJXtbZpthZZpskNvtrdKNGzgqnXbnQf" aria-label="Email aman kumar">📧 Email</a>
                
@@ -37,10 +50,11 @@
         <section class="summary">
             <h2>Summary</h2>
             <p>
-                Hi, I’m aman kumar, an aspiring Web Developer,Software Engineer pursuing a Bachelor’s
+                Hi, I'm aman kumar, an aspiring Web Developer, Software Engineer pursuing a Bachelor's
                 degree in Computer Applications (BCA) at Amity University Patna. I have experience with
                 <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>C++</strong>,
-                and <strong>Data Visualization</strong>
+                and <strong>Data Visualization</strong>. Passionate about building innovative web solutions and 
+                continuously learning new technologies to stay updated with industry trends.
             </p>
 
         </section>
@@ -52,11 +66,6 @@
                 <a href="https://github.com/Amanpatel32" target="_blank" aria-label="Visit Om Prakash's GitHub Profile" title="GitHub">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
                 </a>
-               
-                
-               
-               
-              
             </div>
         </section>
 
@@ -73,22 +82,159 @@
                     <p>HTML</p>
                 </div>
                 <div class="skill">
-                    <img src="https://imgs.search.brave.com/nCG9u5zypccpbk8opnJbKt20L-kBdrYz3FFzf_MZl5M/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4z/ZC5pY29uc2NvdXQu/Y29tLzNkL3ByZW1p/dW0vdGh1bWIvY3Nz/LWZpbGUtM2QtaWNv/bi1kb3dubG9hZC1p/bi1wbmctYmxlbmQt/ZmJ4LWdsdGYtZm9y/bWF0cy0taHRtbC1s/b2dvLWRvYy1mb3Jt/YXQtcGFjay1maWxl/cy1mb2xkZXJzLWlj/b25zLTU2MDc1MDku/cG5nP2Y9d2VicA" alt="C++">
+                    <img src="https://imgs.search.brave.com/nCG9u5zypccpbk8opnJbKt20L-kBdrYz3FFzf_MZl5M/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4z/ZC5pY29uc2NvdXQu/Y29tLzNkL3ByZW1p/dW0vdGh1bWIvY3Nz/LWZpbGUtM2QtaWNv/bi1kb3dubG9hZC1p/bi1wbmctYmxlbmQt/ZmJ4LWdsdGYtZm9y/bWF0cy0taHRtbC1s/b2dvLWRvYy1mb3Jt/YXQtcGFjay1maWxl/cy1mb2xkZXJzLWlj/b25zLTU2MDc1MDku/cG5nP2Y9d2VicA" alt="CSS">
                     <p>CSS</p>
                 </div>
                 <div class="skill">
-                    <img src="https://imgs.search.brave.com/0k3jn8I4DOReNXczQGKNpKpxFlwH2Y-AMLcTmVVBNKY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9jLWljb24t/MjI4eDI1Ni05eTM1/NjN6aS5wbmc" alt="Java">
+                    <img src="https://imgs.search.brave.com/0k3jn8I4DOReNXczQGKNpKpxFlwH2Y-AMLcTmVVBNKY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9jLWljb24t/MjI4eDI1Ni05eTM1/NjN6aS5wbmc" alt="C++">
                     <p>C++</p>
                 </div>
                 <div class="skill">
-                    <img src="https://imgs.search.brave.com/-0X0Gsy3ZqTSLITxU1p81PbetjW04YxPkJcUiIKVuHk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2l0eXBuZy5jb20v/cHVibGljL3VwbG9h/ZHMvcHJldmlldy9q/cy1qYXZhc2NyaXB0/LXJvdW5kLWxvZ28t/aWNvbi1wbmctNzAx/NzUxNjk0NzcxNzMz/OW1ueWY3ZXVteS5w/bmc" alt="SQL">
+                    <img src="https://imgs.search.brave.com/-0X0Gsy3ZqTSLITxU1p81PbetjW04YxPkJcUiIKVuHk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2l0eXBuZy5jb20v/cHVibGljL3VwbG9h/ZHMvcHJldmlldy9q/cy1qYXZhc2NyaXB0/LXJvdW5kLWxvZ28t/aWNvbi1wbmctNzAx/NzUxNjk0NzcxNzMz/OW1ueWY3ZXVteS5w/bmc" alt="JavaScript">
                     <p>JavaScript</p>
                 </div>
                
                 </div>
             </div>
            
-           
+            
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience">
+            <h2>Experience</h2>
+            <div class="exp-entry">
+                <p><strong>Web Development Intern</strong></p>
+                <p>Tech Company | June 2024 - August 2024</p>
+                <ul>
+                    <li>Developed responsive websites using HTML, CSS, and JavaScript</li>
+                    <li>Collaborated with team members to implement new features</li>
+                    <li>Skills Learned: <span class="highlight">#WebDevelopment #React #Git</span></li>
+                </ul>
+            </div>
+            <div class="exp-entry">
+                <p><strong>Freelance Web Developer</strong></p>
+                <p>Self-Employed | 2023 - Present</p>
+                <ul>
+                    <li>Built custom websites for local businesses</li>
+                    <li>Provided maintenance and support services</li>
+                    <li>Skills Learned: <span class="highlight">#WordPress #SEO #ClientCommunication</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects">
+            <h2>Projects</h2>
+            
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website showcasing skills, projects, and achievements. Features include responsive design, dark/light mode, and smooth animations.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+                <a href="https://github.com/Amanpatel32/portfolio" target="_blank">
+                    <i class="fab fa-github"></i> View Project
+                </a>
+            </div>
+
+            <div class="project">
+                <h3>E-Commerce Website</h3>
+                <p>A full-featured e-commerce platform with product listings, shopping cart, and checkout functionality.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">PHP</span>
+                </div>
+                <a href="https://github.com/Amanpatel32/ecommerce" target="_blank">
+                    <i class="fab fa-github"></i> View Project
+                </a>
+            </div>
+
+            <div class="project">
+                <h3>Student Management System</h3>
+                <p>A desktop application for managing student records, grades, and attendance.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">C++</span>
+                    <span class="tech-tag">SQL</span>
+                </div>
+                <a href="https://github.com/Amanpatel32/student-management" target="_blank">
+                    <i class="fab fa-github"></i> View Project
+                </a>
+            </div>
+
+            <div class="project">
+                <h3>Weather App</h3>
+                <p>A weather forecasting application that provides real-time weather data using APIs.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">API</span>
+                </div>
+                <a href="https://github.com/Amanpatel32/weather-app" target="_blank">
+                    <i class="fab fa-github"></i> View Project
+                </a>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="certifications">
+            <h2>Certifications</h2>
+            <div class="category-buttons">
+                <button class="category-btn active" id="all" onclick="filterCertifications('all')">All</button>
+                <button class="category-btn" id="cs" onclick="filterCertifications('cs')">Web Development</button>
+                <button class="category-btn" id="ds" onclick="filterCertifications('ds')">Data Science</button>
+                <button class="category-btn" id="da" onclick="filterCertifications('da')">Programming</button>
+            </div>
+            <div class="certifications-list">
+                <div class="certification-card show" data-category="cs">
+                    <h3>HTML & CSS Certification</h3>
+                    <a href="#">View Certificate</a>
+                </div>
+                <div class="certification-card show" data-category="cs">
+                    <h3>JavaScript Fundamentals</h3>
+                    <a href="#">View Certificate</a>
+                </div>
+                <div class="certification-card show" data-category="da">
+                    <h3>C++ Programming</h3>
+                    <a href="#">View Certificate</a>
+                </div>
+                <div class="certification-card show" data-category="ds">
+                    <h3>Data Science Basics</h3>
+                    <a href="#">View Certificate</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards & Achievements Section -->
+        <section class="awards">
+            <h2>Awards & Achievements</h2>
+            <ul>
+                <li>
+                    <span class="icon">🏆</span>
+                    <strong>Best Web Developer Award</strong> - Amity University (2024)
+                </li>
+                <li>
+                    <span class="icon">🥇</span>
+                    <strong>First Place</strong> - Coding Competition, Amity University
+                </li>
+                <li>
+                    <span class="icon">⭐</span>
+                    <strong>5-Star Rating</strong> - HackerRank in C++
+                </li>
+                <li>
+                    <span class="icon">🎯</span>
+                    <strong>100+ Problems Solved</strong> - LeetCode & GeeksforGeeks
+                </li>
+                <li>
+                    <span class="icon">📜</span>
+                    <strong>Certificate of Appreciation</strong> - Tech Fest Organization
+                </li>
+            </ul>
         </section>
 
         <!-- Education Section -->
@@ -98,9 +244,9 @@
                 <p><strong>BCA in Computer Science</strong></p>
                 <p>Amity University Patna | Sept 2023 – Present</p>
                 <ul>
-                    <li>Skills Learned: <span class="highlight">#HTML #CSS #C++ #JavaScript  </span>
+                    <li>Skills Learned: <span class="highlight">#HTML #CSS #C++ #JavaScript</span>
                     </li>
-                    <li>Relevant Courses: Data Structures, Algorithms, Database Management Systems</li>
+                    <li>Relevant Courses: Data Structures, Algorithms, </li>
                 </ul>
             </div>
             <div class="edu-entry">
@@ -121,12 +267,43 @@
             </div>
         </section>
 
+        <!-- Contact Form Section -->
+        <section class="contact-form">
+            <h2>Contact Me</h2>
+            <form id="contactForm" onsubmit="submitForm(event)">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
 
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="confirmation-box" id="confirmationBox">
+                <div class="confirmation-content">
+                    <div class="icon">✓</div>
+                    <p>Message Sent Successfully!</p>
+                    <button class="close-btn" onclick="closeConfirmation()">Close</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visitor Counter -->
+        <div class="visitor-container">
+            <p>Total Visitors: <span id="visitor-count">0</span></p>
+        </div>
         
         <!-- Footer Section -->
         <footer class="footer">
             <div class="footer-social">
-                <a href="linkedin.com/in/aman-kumar-636610305" target="_blank" class="social-icon linkedin">
+                <a href="https://www.linkedin.com/in/aman-kumar-636610305/" target="_blank" class="social-icon linkedin">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
                 <a href="https://github.com/Amanpatel32" target="_blank" class="social-icon github">
@@ -141,13 +318,16 @@
             </div>
             <div class="footer-left">
                 <center>
-                    <p>© 2025 Aman kumar. All Rights Reserved.</p>
+                    <p> Aman kumar. All Rights Reserved.</p>
                     <p>Created with passion for technology and innovation.</p>
                 </center>
             </div>
         </footer>
 
-        <script src="script.js"></script>
+    </div>
 
+    <script src="script.js"></script>
+</body>
 
-</div><span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body><chatgpt-sidebar data-gpts-theme="light"></chatgpt-sidebar><chatgpt-sidebar-popups data-gpts-theme="light"></chatgpt-sidebar-popups></html>
+</html>
+
